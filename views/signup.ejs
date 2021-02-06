@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sign up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles8.css">
+  </head>
+  <body onload='document.form1.psw.focus()'>
+    <div class="div-4 container-fluid">
+<p class="glow"><em>SIGN UP FORM</em></p>
+
+    </div>
+
+
+<div class="container-fluid div-back  ">
+
+  <form class="" action="/sign_up" method="post" name="form1" >
+
+    <div class="row row-1">
+      <div class="col-lg-4 col-sm-4">
+        <label for="name"><b>NAME</b></label>
+          <input type="text" class="form-control" style="padding:2rem" placeholder="Enter Your Name" name="name" required>
+
+      </div>
+    </div>
+
+
+    <div class="row row-1">
+      <div class="col-lg-4 col-sm-4">
+        <label for="college"><b>COLLEGE</b></label>
+          <input type="text" class="form-control" style="padding:2rem" placeholder="Enter College Name" name="collegename" required>
+
+      </div>
+    </div>
+
+
+    <div class="row row-1">
+      <div class="col-lg-4 col-sm-4">
+        <label for="email"><b>EMAIL</b></label>
+        <br>
+        <input class="form-control" style="padding:2rem" type="email" placeholder="Enter your Email " name="email" required>
+
+      </div>
+    </div>
+
+
+    <div class="row row-1">
+      <div class="col-lg-4 col-sm-4">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" class="form-control" style="padding:2rem" id="pass1" placeholder="Enter Password" name="psw"  required >
+
+      </div>
+    </div>
+
+    <div class="row row-1">
+      <div class="col-lg-4 col-sm-4">
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+      </div>
+    </div>
+
+    <div class="row clearfix">
+      <div class="col-lg-4 col-sm-4">
+        <button type="button" id="myButton" class="cancelbtn btn btn-danger btn-lg" >Cancel</button>
+        <button type="submit"  class="signupbtn btn btn-primary btn-lg" onclick="callfunction(document.form1.psw)" >Sign Up</button>
+      </div>
+
+        </div>
+  </form>
+
+  </div>
+
+
+
+    <div class="div-4 container-fluid">
+
+
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "/Home";
+        };
+
+        function callfunction(inputtxt)
+        {
+
+
+             var textBox = document.getElementById("pass1");
+               var textLength = textBox.value.length;
+
+                 if(textBox.value!='' && textLength<7)
+                 {
+                  alert('Please enter correct password of length 7 ');
+                 }
+
+
+        }
+    </script>
+
+
+  </body>
+</html>

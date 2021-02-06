@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.div-back{
+  background-image: url('/assets/images/img-53.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.div-4{
+  height: 10rem;
+  background-color: black;
+  text-align: center;
+
+}
+
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+label{
+  font-size: 2.5rem;
+  color:#f0a500;
+
+}
+
+.row-1{
+
+  margin-left: 5rem;
+}
+
+
+
+.cancelbtn:hover{color: black;}
+.cancelbtn {
+  margin-top: 3rem;
+  margin-left: 7rem;
+  padding: 14px 20px;
+  margin-bottom: 4rem;
+}
+.signupbtn:hover{color: black;}
+.signupbtn {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  padding: 14px 20px;
+margin-bottom: 4rem;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+
+
+
+.glow {
+  font-size: 60px;
+  color:#fff;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

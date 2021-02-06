@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+
+.div-1 {
+  margin: 0;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 0;
+  font-size: 9rem;
+}
+
+p {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 2rem;
+}
+
+.pa2 {
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 100rem;
+}
+
+.ha {
+  margin-top: 0;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+}
+
+/**********************************************************  after navbar  *************************************************************/
+.div-4 {
+  background-color: black;
+  width: 100%;
+}
+
+.aa:hover {
+  color: grey;
+}
+
+.aa {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 60rem;
+}
+
+.hc {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 6rem;
+  color: #5d54a4;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f1f3f8;
+}
+
+.div-3 {
+  height: 80%;
+  width: 80%;
+  margin-top: 4rem;
+  margin-left: 14rem;
+}
+
+.mn {
+  text-align: center;
+}
+
+.hc1 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #5d54a4;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.div-5 {
+  height: 13rem;
+  background-color: black;
+  text-align: center;
+}
+
+/**********************************************************************  index2.html  ****************************************************/
+.hp {
+  margin-top: 1rem;
+  margin-left: 13rem;
+  font-size: 3rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.ig1 {
+  height: 60%;
+  width: 80%;
+  margin-left: 7rem;
+  margin-bottom: 0;
+}
+
+.pb {
+  margin-left: 13rem;
+  margin-bottom: 6rem;
+}
+
+.div-2 {
+  margin-top: 4rem;
+}
+
+.pb1 {
+  margin-left: 13rem;
+  margin-bottom: 26rem;
+}
+
+.mn {
+  text-align: center;
+}
+
+.lit {
+  margin-left: 12rem;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.div-33 {
+  height: 60%;
+  width: 70%;
+  margin-top: 4rem;
+  margin-left: 18rem;
+}
+
+.div-34 {
+  height: 70%;
+  width: 80%;
+  margin-top: 2.5rem;
+  margin-left: 14rem;
+}
+
+
+.glow:hover{color:#d789d7; }
+.glow {
+  font-size: 60px;
+  color:#fff;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

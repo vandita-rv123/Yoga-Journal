@@ -1,0 +1,136 @@
+/*******************************************************          title & navbar      ************************************************************/
+body {
+  margin: 0;
+}
+
+.div-1 {
+  margin: 0;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 0;
+  font-size: 9rem;
+}
+
+p {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 2rem;
+}
+
+.pa2 {
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 100rem;
+}
+
+.ha {
+  margin-top: 0;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+}
+
+.div {
+  background-color: #fff;
+}
+
+/*************************************************************    bellow navbar     *********************************************************/
+.pa1 {
+  font-size: 2rem;
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.div-2 {
+  background-color: #f1f3f8;
+}
+
+img {
+  margin-left: 10rem;
+  height: 60rem;
+  width: 100rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.div-5 {
+  margin-top: 5rem;
+  height: 13rem;
+  background-color: black;
+  text-align: center;
+}
+
+.div-4 {
+  margin-bottom: 5rem;
+  background-color: #fff;
+}
+
+.ha1 {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Slabo 27px', serif;
+}
+
+.pa1 {
+  font-size: 2rem;
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.hc {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.hp {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  font-size: 3rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.ig1 {
+  height: 40%;
+  width: 70%;
+  margin-left: 10rem;
+  margin-bottom: 0;
+}
+
+.pb {
+  margin-left: 10rem;
+}
+
+
+.glow:hover{color:#d789d7; }
+.glow {
+  font-size: 60px;
+  color:#fff;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

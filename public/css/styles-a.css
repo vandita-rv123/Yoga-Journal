@@ -1,0 +1,141 @@
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+#close:hover{background-color: #000;}
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer;
+height:2rem;
+}
+div#popupContact {
+position:absolute;
+left:45%;
+top:17%;
+margin-left:-202px;
+
+font-family:'Raleway',sans-serif
+}
+form {
+max-width:600px;
+min-width:300px;
+padding:10px 50px;
+border:2px solid gray;
+
+font-family:raleway;
+background-image: url("../assets/images/img-b.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+background-size:  55% 90%;
+background-position: center;
+
+}
+.centered {
+  position: absolute;
+color: #fff;
+  top: 60%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  padding-right: 2.3rem;
+  font-weight: bolder;
+}
+
+h2 {
+background-color:#000;
+padding:15px 30px;
+margin:-10px -50px;
+text-align:center;
+
+}
+
+input[type=text] {
+width:65%;
+padding:10px;
+margin-top:50px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+margin-right: 5rem;
+font-family:raleway;
+
+}
+#name {
+background-image:url(../images/name.jpg);
+background-repeat:no-repeat;
+background-position:5px 7px
+
+}
+#msg {
+background-image:url(../images/email.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+textarea {
+background-image:url(../images/msg.png);
+background-repeat:no-repeat;
+background-position:5px 7px;
+width:65%;
+height:80px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+margin-right: 5rem;
+font-family:raleway;
+margin-bottom:30px
+
+}
+#submit:hover{background-color: #000;}
+#submit {
+text-decoration:none;
+width:66%;
+text-align:center;
+display:block;
+background-color:green;
+color:#fff;
+border:1px solid #000;
+padding:10px ;
+font-size:20px 0;
+cursor:pointer;
+margin-bottom: 2rem;
+margin-left: 6rem;
+
+}
+
+
+
+
+.glow3{
+  font-size: 25px;
+  color:#fff;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
